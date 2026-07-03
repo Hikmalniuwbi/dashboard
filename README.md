@@ -42,8 +42,8 @@ Oleh karena itu, ada logika "Satpam" (*Throttle*) di mana perintah pergerakan an
 
 ---
 
-**💡 Tips Presentasi (Tinkering Challenge):** 
-Biar pesertanya makin sadar fungsi kode tersebut, suruh mereka mengotak-atik angkanya! 
+**💡 Tinkering Challenge:** 
+ 
 *"Coba ganti angka Throttle `150` di Joystick jadi `2000` (2 detik), lalu coba tarik tongkat analognya ke depan! Pasti nanti pergerakan angkanya di layar log terminal menjadi sangat patah-patah (hanya update tiap 2 detik)!"* 
 
 Hal eksperimental ini dijamin akan membuat mereka mengerti seberapa penting pembatas waktu (throttle) di dalam perancangan produk hardware (IoT).
