@@ -128,7 +128,7 @@ export default function ActionButtons({ onCommand }) {
   }, []);
 
   return (
-    <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-8 flex flex-col justify-center items-center h-full min-h-[300px]">
+    <div className="bg-zinc-900 border border-zinc-800 rounded-xl p-8 flex flex-col justify-center items-center relative h-full min-h-[300px]">
       <h2 className="absolute top-6 left-6 text-zinc-500 text-sm font-semibold uppercase tracking-[0.2em]">Action</h2>
       <button onClick={handleAction}
         className={`relative w-40 h-40 rounded-full border-[6px] flex flex-col justify-center items-center gap-2 transition-transform duration-100 ${activeAction === "kick" ? "bg-amber-600 border-amber-700 scale-95" : "bg-amber-500 border-amber-600"}`}>
